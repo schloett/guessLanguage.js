@@ -32,7 +32,7 @@
  *   along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-define(['_languageData'], function(models) {
+define(['./_languageData'], function(models) {
 
   var guessLanguage = function() {
 
