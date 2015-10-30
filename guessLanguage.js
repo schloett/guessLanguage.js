@@ -34,7 +34,7 @@
 
 define(['./_languageData'], function(models) {
 
-  var guessLanguage = function() {
+  var guessLanguage = (function() {
 
 
       var MAX_LENGTH = 4096;
@@ -675,7 +675,7 @@ define(['./_languageData'], function(models) {
         }
       };
 
-  };
+  })();
 
     return guessLanguage;
 
